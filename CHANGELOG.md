@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.6.1 (2024-03-20)
+
+<!-- Release notes generated using configuration in .github/release.yaml at main -->
+
+## What's Changed
+### Other Changes
+* build: Remove unused tool crane by @jimmidyson in https://github.com/d2iq-labs/cluster-api-runtime-extensions-nutanix/pull/459
+* ci: Add govulncheck check by @jimmidyson in https://github.com/d2iq-labs/cluster-api-runtime-extensions-nutanix/pull/461
+* ci: Remove auto-approve PR steps by @jimmidyson in https://github.com/d2iq-labs/cluster-api-runtime-extensions-nutanix/pull/462
+* build: Tidy up examples sync script by @jimmidyson in https://github.com/d2iq-labs/cluster-api-runtime-extensions-nutanix/pull/458
+* test: Remove redundant test case from httpproxy handler by @dlipovetsky in https://github.com/d2iq-labs/cluster-api-runtime-extensions-nutanix/pull/463
+
+
+**Full Changelog**: https://github.com/d2iq-labs/cluster-api-runtime-extensions-nutanix/compare/v0.6.0...v0.6.1
+
 ## 0.6.0 (2024-03-19)
 
 <!-- Release notes generated using configuration in .github/release.yaml at main -->
