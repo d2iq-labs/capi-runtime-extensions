@@ -21,7 +21,7 @@ import (
 	. "github.com/onsi/gomega"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/klog/v2"
-	addonsv1 "sigs.k8s.io/cluster-api-addon-provider-helm/api/v1alpha1"
+	helmaddonsv1 "sigs.k8s.io/cluster-api-addon-provider-helm/api/v1alpha1"
 	capie2e "sigs.k8s.io/cluster-api/test/e2e"
 	"sigs.k8s.io/cluster-api/test/framework"
 	capibootstrap "sigs.k8s.io/cluster-api/test/framework/bootstrap"
@@ -205,7 +205,7 @@ func createClusterctlLocalRepository(config *clusterctl.E2EConfig, repositoryFol
 func initScheme() *runtime.Scheme {
 	scheme := runtime.NewScheme()
 	framework.TryAddDefaultSchemes(scheme)
-	Expect(addonsv1.AddToScheme(scheme)).To(Succeed())
+	Expect(helmaddonsv1.AddToScheme(scheme)).To(Succeed())
 	return scheme
 }
 
