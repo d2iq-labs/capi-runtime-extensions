@@ -11,7 +11,7 @@ require (
 	github.com/d2iq-labs/cluster-api-runtime-extensions-nutanix/api v0.0.0-00010101000000-000000000000
 	github.com/evanphx/json-patch/v5 v5.9.0
 	github.com/go-logr/logr v1.4.1
-	github.com/onsi/gomega v1.31.1
+	github.com/onsi/gomega v1.32.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.9.0
 	gomodules.xyz/jsonpatch/v2 v2.4.0
@@ -61,10 +61,10 @@ require (
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/valyala/fastjson v1.6.4 // indirect
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
-	golang.org/x/net v0.19.0 // indirect
+	golang.org/x/net v0.20.0 // indirect
 	golang.org/x/oauth2 v0.14.0 // indirect
 	golang.org/x/sys v0.16.0 // indirect
-	golang.org/x/term v0.15.0 // indirect
+	golang.org/x/term v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
